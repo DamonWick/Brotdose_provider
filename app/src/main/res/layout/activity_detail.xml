@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/isss"
+    tools:context="xyz.signupdetails.DetailActivity">
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:fontFamily="cursive"
+        android:text="Details"
+        android:textColor="#bfe6edf2"
+        android:textSize="65dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorAccent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp"
+        android:layout_below="@+id/tvMenu"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorAccent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp"
+        android:layout_below="@+id/etName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/etRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etTitle"
+        android:ems="10"
+        android:hint="Rate"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/etMrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etRate"
+        android:ems="10"
+        android:hint="Monthly Rate"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/etYrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etMrate"
+        android:ems="10"
+        android:hint="Yearly Rate"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etYrate"
+        android:ems="10"
+        android:hint="Contact"
+        android:inputType="phone"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btncon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="CONTINUE"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Enter Menu"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/tvDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+</RelativeLayout>

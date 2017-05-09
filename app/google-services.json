@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "814695020086",
+    "firebase_url": "https://projectpiyushnaman.firebaseio.com",
+    "project_id": "projectpiyushnaman",
+    "storage_bucket": "projectpiyushnaman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814695020086:android:5cf0025694f1812b",
+        "android_client_info": {
+          "package_name": "xyz.xaidworkz.www.project_naman_n_piyush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814695020086-qhnlr2gkh258qh102v1d5b5dmpnp87b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.xaidworkz.www.project_naman_n_piyush",
+            "certificate_hash": "062d7cf2e27f7026e142ef396a26a814ca1ac78a"
+          }
+        },
+        {
+          "client_id": "814695020086-mrjg1vmhk7qhgq63tn780g0f5s2jhje7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.xaidworkz.www.project_naman_n_piyush",
+            "certificate_hash": "9797932f331f7b821790586fa3e4e7988f1f2611"
+          }
+        },
+        {
+          "client_id": "814695020086-ui8qqcfbnf6ja77eq4fb8i744g2cvqut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMOnzIsAhD9-WqEzT_dYe9qR3FA4CnJis"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814695020086-ui8qqcfbnf6ja77eq4fb8i744g2cvqut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814695020086:android:44014902e6cd461b",
+        "android_client_info": {
+          "package_name": "trainedge.brodosecompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814695020086-ui8qqcfbnf6ja77eq4fb8i744g2cvqut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMOnzIsAhD9-WqEzT_dYe9qR3FA4CnJis"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814695020086:android:6c3511b777ab3ecb",
+        "android_client_info": {
+          "package_name": "xyz.signupdetails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814695020086-sd8cq6ie3t79l4nltr7nhscg9b5gc6av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.signupdetails",
+            "certificate_hash": "062d7cf2e27f7026e142ef396a26a814ca1ac78a"
+          }
+        },
+        {
+          "client_id": "814695020086-ui8qqcfbnf6ja77eq4fb8i744g2cvqut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMOnzIsAhD9-WqEzT_dYe9qR3FA4CnJis"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814695020086-ui8qqcfbnf6ja77eq4fb8i744g2cvqut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

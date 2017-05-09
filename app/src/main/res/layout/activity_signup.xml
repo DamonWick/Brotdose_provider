@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/minn"
+    tools:context="xyz.signupdetails.SignupActivity">
+
+    <TextView
+        android:id="@+id/tvSup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:fontFamily="cursive"
+        android:textColor="#fcfdfd"
+        android:text="SignUp"
+        android:textSize="65dp" />
+
+    <EditText
+        android:id="@+id/etFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSup"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint=" First Name"
+        android:textColorHint="#ffff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFname"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Last Name"
+        android:textColorHint="#ffff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etLname"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:textColorHint="#ffff"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etEml"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textColorHint="#ffff"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etRpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etPwd"
+        android:ems="10"
+        android:hint="Re-Enter Password"
+        android:textColorHint="#ffff"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCfm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRpwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="CONFIRM" />
+</RelativeLayout>
